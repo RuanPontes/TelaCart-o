@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="style.css">
+<div class="mainscreen">
+    <!-- <img src="https://image.freepik.com/free-vector/purple-background-with-neon-frame_52683-34124.jpg"  class="bgimg " alt="">--> 
+      <div class="card">
+        <div class="leftside">
+          <img
+            src="https://th.bing.com/th/id/R.3a19cd9a686c0222e366c2e687d6e0ca?rik=L78YKbfYIFSa%2fg&pid=ImgRaw&r=0"
+            class="product"
+            alt="Shoes"
+          />
+        </div>
+        <div class="rightside">
+          <form action="">
+            <h1>Caixa</h1>
+            <h2>Adicionar cartão</h2>
+            <p>Nome no cartão</p>
+            <input type="text" class="inputbox" name="name" required />
+            <p>Numero no cartão</p>
+            <input type="number" class="inputbox" name="card_number" id="card_number" required />
+
+            <p>Tipo de cartão</p>
+            <select class="inputbox" name="card_type" id="card_type" required>
+              <option value="">--Selecione a bandeira do cartão--</option>
+              <option value="Visa">Visa</option>
+              <option value="RuPay">HiperCard</option>
+              <option value="MasterCard">MasterCard</option>
+            </select>
+<div class="expcvv">
+
+            <p class="expcvv_text">Vencimento</p>
+            <input type="date" class="inputbox" name="exp_date" id="exp_date" required />
+
+            <p class="expcvv_text2">CVV</p>
+            <input type="password" class="inputbox" name="cvv" id="cvv" required />
+        </div>
+            <p></p>
+            <button type="submit" class="button">CheckOut</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
